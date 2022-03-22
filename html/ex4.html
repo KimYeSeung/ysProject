@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html>
+
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+        <title>Document</title>
+
+        
+        <script>
+
+            var user_id="hong";
+            var user_pw="1111";
+            function login(id,pw) {
+                if(id==user_id){
+                    if(pw==user_pw){
+                        document.write(user_id+"님 환영");
+                    }else{
+                        alert("잘못된 비밀번호")
+                    }    
+                }else{
+                    alert("잘못된 ID")
+                }
+                
+            }
+
+           var id1=prompt("아이디를 넣어라")
+           var pw1=prompt("비밀번호를 넣어라")
+
+           login(id1,pw1);
+
+
+        </script>
+
+
+    </head>
+
+    <body>
+
+
+
+
+    </body>
+</html>
